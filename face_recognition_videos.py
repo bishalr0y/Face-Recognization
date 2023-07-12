@@ -7,7 +7,7 @@ from utils import nb_of_matches
 
 
 # load the encodings + names dictionary
-with open("C:/Users/Bishal/OneDrive/Desktop/Face-Recognization/encodings.pickle", "rb") as f:
+with open("C:/Users/Bishal/OneDrive/Desktop/face-recognition-gui/encodings.pickle", "rb") as f:
     name_encodings_dict = pickle.load(f)
 
 video_cap = cv2.VideoCapture(0)
